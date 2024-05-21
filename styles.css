@@ -1,6 +1,12 @@
+::root{
+    --primary-color: #333;
+}
+
+
 body {
     margin: 0;
     font-family: Arial, sans-serif;
+    color:var(--primary-color);
 }
 
 .navbar {
