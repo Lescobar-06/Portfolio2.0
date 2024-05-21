@@ -1,24 +1,45 @@
 ::root{
     --primary-color: #333;
+    --secondary-color: #ffd700;
+    --tertiary-color: #fff;
 }
 
 
 body {
     margin: 0;
-    font-family: Arial, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
     color:var(--primary-color);
 }
 
 h1 {
-    margin-top: 0;
-    font-size: 1.5em;
-    text-align: center;
+    margin-top: 50px;
+    font-size: 12.5em;
+    margin-right: -140px;
     color:var(--primary-color);
+}
+
+p {
+    font-size: 1rem;
+    line-height: 2.5rem;
+    color:var(--primary-color);
+    margin-top: 500px;
+    margin-left: -680px;
+}
+
+#text {
+    color:var(--primary-color);
+    margin-left: 100px;
+}
+
+div.bio {
+    color:var(--primary-color);
+    margin-left: 200px;
+
 }
 
 main#app {
     display: grid;
-    grid-template-columns: 3fr 7fr 5fr;
+    grid-template-columns: 5fr 7fr 3fr;
     transition: all 1s; 
 }
 
@@ -64,9 +85,12 @@ main#app {
         width: 100%;
         background-image: url(img/IMG_1306.JPG);
         background-size: cover;
-        place-items: right;
         height: 100vh;
         display: grid;
 
+}
 
+.name {
+    color:var(--primary-color);
+    margin-left: 200px;
 }
