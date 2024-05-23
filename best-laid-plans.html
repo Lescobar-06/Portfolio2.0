@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <style>
+      main,
+      header,
+      div,
+      section,
+      nav {
+        padding: 0.5rem;
+      }
+
+      header,
+      section {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+
+      section div#video {
+        display: grid;
+        place-items: center;
+      }
+
+      section div#video video {
+        width: 100%;
+        margin-top: 155px;
+      }
+
+      section div#intro {
+        display: grid;
+        grid-template-columns: 1fr 3fr;
+
+    }
+    
+    section div#intro div#t01 {
+          background-image: url('./img/6-8.jpg');
+          background-size: cover;
+          background-repeat: no-repeat;
+          background-position: 50% 0;
+
+      }
+    </style>
+  </head>
+  <body>
+    <main>
+      <header>
+        <div id="logo">logo</div>
+        <nav>nav</nav>
+      </header>
+      <section>
+        <div id="video">
+            <video src="videos/02 Lesco.mp4" autoplay loop muted playsinline>
+        </div>
+        <div id="intro">
+            <div id="t01">
+            </div>
+            <div id="02">
+                <img src="./img/6-10.jpg" alt="" width="100%">
+            </div>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
