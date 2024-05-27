@@ -7,7 +7,7 @@ body{
 
 main{
     height: 100vh;
-    background-color: orangered;
+    background-color: rgb(0, 0, 0);
     margin: 0;
     padding: 0;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -16,7 +16,6 @@ main{
 .header{
     text-decoration: none;
     display: flex;
-    background-color: blue;
     height: 10vh;
     justify-content: space-between;
     place-items: center;
@@ -30,8 +29,8 @@ body main .header .nav{
 body main .header .nav ul{
     text-decoration: none;
     display: flex;
-    gap: 2rem;
-    justify-content: right;
+    gap: 2.99rem;
+    justify-content: end;
     padding-right: 30px;
     font-weight: bold;
 }
@@ -40,6 +39,7 @@ body main .header .nav ul{
     width: 50%;
     text-decoration: none;
     color: white;
+    font-weight: bold;
 
 }
 
@@ -48,9 +48,8 @@ body main .header .nav ul{
     color: rgb(255, 255, 255);
     height: 100%;
     width: 50%;
-    text-align: center;
+    margin-right: 10px;
     font-size: xx-large;
-    font-weight: bold; 
 }
 
 main div.header div.nav ul li {
@@ -59,6 +58,73 @@ main div.header div.nav ul li {
 
 a {
     text-decoration: none;
-
+    color: white;
+    &:hover {
+        color: #999;
+    }
 }
 
+.left {
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    height: 90vh;
+    width: 60%; 
+    margin-left: 5px;
+}
+.one {
+    height: 90%;
+    width: 40%;
+    margin: 6px;
+    display: flex;
+    align-items: center;
+    background-image: url(img/6-14.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    
+}
+.two {
+    height: 100%;
+    width: 50%;
+    background-image: url(img/7.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+.three {
+    height: 100%;
+    width: 50%;
+    background-color: #ddf129;
+    background-image: url(img/IMG_1128.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.four {
+    height: 30%;
+    width: 100%;
+    background-color: #880d88;
+    background-image: url(img/Thabang\ Makolo_NIM2023003\ -\ Slow\ Tv\ 5.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    height: 90%;
+}
+
+
+.top {
+   
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 70%;
+    gap: 0.35rem;
+}
