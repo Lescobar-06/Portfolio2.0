@@ -175,9 +175,9 @@ a {
 
 
 .ab {
-    background-color: rgba(255, 255, 255, 0);
+    background-color: rgba(255, 255, 255, 0.199);
     height: 100%;
-    width: 24%;
+    width: 20%;
     background-image: url(img/431309017_1860298861091160_2702597551724773180_n\ -\ Copy.jpg);
     background-size: contain;
     background-repeat: no-repeat;
