@@ -1,3 +1,8 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
 body{
 
     color: aliceblue;
@@ -62,23 +67,138 @@ a {
     text-decoration: none;
     color: rgb(255, 255, 255);
     &:hover {
-        color: #999;
-        transition: 0.3s;
+        color: #ffffff80;
+        transition: 0.3s;} 
+}
 
-    }
+.content{
+    background-color: rgba(255, 115, 21, 0);
+    height: 90vh;
+    display: flex;
+    padding: 10px;  
+    
+
 }
 
 .mainbox {
-    background-color: aqua;
     display: flex;
     flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100%;
+    background-color: rgba(243, 243, 9, 0);
     height: 100%;
+    width: 100%;
+    margin: 10px;
+   
+}
 
+.topleft {
+    background-color: rgba(37, 6, 61, 0);
+    height: 100%;
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.topmiddle {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 100%;
+    display: grid;
+    flex-direction: row;
+}
+.topright {
+    background-color: rgb(6, 61, 9);
+    height: 98%;
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
 }
 
 .box1 {
-    background-color: rgb(22, 134, 224);   
+    background-color: rgb(22, 134, 224);
+    height: 100%;
+    width: 48%;
+}
+
+.box2 {
+    background-color: rgba(224, 22, 56, 0);
+    height: 60%;
+    width: 48%;
+    margin-bottom: -30px;
+    margin-left: 880px;
+}
+
+.box3 {
+    background-color: rgba(255, 0, 200, 0);
+    height: 60%;
+    width: 48%;
+    margin-top: 0px;
+    margin-left: 880px;
+}
+
+.bottom {
+    background-color: rgb(22, 224, 123);
+    height: 190%;
+    width: 100%;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+}
+
+.box4 {
+    background-color: rgba(22, 224, 123, 0.527);
+    height: 95%;
+    width: 98%;
+    margin: 8px;
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+}
+
+
+.house {
+    background-color: rgba(255, 255, 255, 0);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 5px;
+    height: 100%;
+    width: 100%;
+}
+
+.b1 {
+    text-align: center;
+    font-size: 5rem;
+    margin-top: 50px;
+}
+
+.ab {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 20%;
+}
+
+.bb {
+    background-color: rgb(124, 95, 95);
+    height: 100%;
+    width: 20%;
+}
+
+.cb {
+    background-color: rgba(251, 255, 15, 0.829);
+    height: 100%;
+    width: 20%;
+}
+
+.db {
+    background-color: rgb(207, 16, 16);
+    height: 100%;
+    width: 20%;
+}
+
+.eb {
+    background-color: rgb(255, 255, 255);
+    height: 100%;
+    width: 20%;
 }
