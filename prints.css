@@ -173,16 +173,9 @@ a {
     margin-top: 50px;
 }
 
-.b2 {
-    text-align: justify;
-    font-size: 1.55rem;
-    line-height: 1.5rem;
-    margin-top: -40px;
-}
-
 
 .ab {
-    background-color: rgba(253, 244, 244, 0.199);
+    background-color: rgba(255, 255, 255, 0.199);
     height: 100%;
     width: 20%;
     background-image: url(img/431309017_1860298861091160_2702597551724773180_n\ -\ Copy.jpg);
@@ -192,11 +185,11 @@ a {
 }
 
 .bb {
-    background-color: rgba(112, 107, 107, 0.411);
+    background-color: rgb(0, 0, 0);
     height: 100%;
     width: 20%;
     background-image: url(img/Photography\ Cover\ v5-black.jpg);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center; 
 }
@@ -226,7 +219,7 @@ a {
     height: 100%;
     width: 20%;
     background-image: url(img/Inyoni\ letter.png);
-    background-size: contain;
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
 }
