@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
 }
+
 body{
 
     color: aliceblue;
@@ -75,151 +76,47 @@ a {
     background-color: rgba(255, 115, 21, 0);
     height: 90vh;
     display: flex;
-    padding: 10px;  
-    
-
-}
-
-.mainbox {
-    display: flex;
-    flex-direction: column;
-    background-color: rgba(243, 243, 9, 0);
-    height: 100%;
-    width: 100%;
-    margin: 10px;
-   
-}
-
-.topleft {
-    background-color: rgba(37, 6, 61, 0);
-    height: 100%;
-    width: 100%;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-.topmiddle {
-    background-color: rgb(255, 255, 255);
-    height: 100%;
-    width: 100%;
-    display: grid;
-    flex-direction: row;
-}
-.topright {
-    background-color: rgb(6, 61, 9);
-    height: 98%;
-    width: 100%;
-    margin: 10px;
-    display: flex;
-    flex-direction: column;
-}
-
-.box1 {
-    background-color: rgba(22, 133, 224, 0);
-    height: 100%;
-    width: 48%;
-}
-
-.box2 {
-    background-color: rgba(224, 22, 56, 0);
-    height: 60%;
-    width: 48%;
-
-    margin-left: 880px;
-}
-
-.box3 {
-    background-color: rgba(255, 0, 200, 0);
-    height: 60%;
-    width: 48%;
-    margin-top: 0px;
-    margin-left: 880px;
-}
-
-.bottom {
-    background-color: rgba(22, 224, 123, 0);
-    height: 190%;
-    width: 100%;
-    margin: 10px;
-    display: flex;
     flex-direction: row;
 }
 
-.box4 {
-    background-color: rgba(22, 224, 123, 0);
-    height: 96%;
-    width: 99%;
-    margin: 8px;
-    display: flex;
-    flex-direction: row;
-    gap: 0.5rem;
-}
-
-
-.house {
-    background-color: rgba(255, 255, 255, 0);
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    margin: 5px;
+.leftbox{
+    background-color: rgba(236, 133, 29, 0);
     height: 100%;
     width: 100%;
+    display: flex;
+    flex-direction: column;
 }
 
-.b1 {
+.formhead{
+    background-color: rgba(5, 5, 255, 0);
     text-align: center;
-    font-size: 5rem;
-    margin-top: 50px;
+    width: 70%;
+    height: 12%;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 220px;
+    font-size: 1.5rem;
+    text-align: justify;
 }
 
-
-.ab {
-    background-color: rgba(255, 255, 255, 0.199);
-    height: 100%;
-    width: 20%;
-    background-image: url(img/431309017_1860298861091160_2702597551724773180_n\ -\ Copy.jpg);
+.formimg {
+    background-color: rgba(0, 0, 0, 0.877);
+    width: 100%;
+    height: 71%;
+    margin-left: -10px;
+    background-image: url(img/chrome-hearts-vynil.jpg);
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
+    margin-top: 55px;
+
 }
 
-.bb {
-    background-color: rgb(0, 0, 0);
-    height: 100%;
-    width: 20%;
-    background-image: url(img/Photography\ Cover\ v5-black.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center; 
-}
-
-.cb {
-    background-color: rgb(255, 255, 255);
-    height: 100%;
-    width: 20%;
-    background-image: url(img/Meta\ Museum\ Final\ Logo.png);
-    background-size: contain;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.db {
-    background-color: rgb(207, 16, 16);
-    height: 100%;
-    width: 20%;
-    background-image: url(img/Ntinga\ Logo.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
-}
-
-.eb {
-    background-color: rgb(255, 255, 255);
-    height: 100%;
-    width: 20%;
-    background-image: url(img/Inyoni\ letter.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: center;
+.rightbox{ 
+    background-color: rgba(255, 115, 0, 0);
+    width: 100%;
+    height: 90%;
+    align-items: center;
+    margin-right: 30px;
+    margin-top: 72px;
 }

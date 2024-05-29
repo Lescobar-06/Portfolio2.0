@@ -16,6 +16,8 @@ h1 {
     font-size: 12.9em;
     margin-right: -140px;
     color:var(--primary-color);
+    height: 0vh;
+    position: absolute;
 }
 
 p {
@@ -94,4 +96,9 @@ main#app {
 .name {
     color:var(--primary-color);
     margin-left: 200px;
+}
+
+.t02 {
+    height: 100%;
+    background-image: url(img/6-12.jpg);
 }
