@@ -165,28 +165,27 @@
         });
       });
 
-      /*
+      player.addEventListener("click", () => {
+        setTimeout(() => {
+          loader.classList.add("hide");
+          document.body.classList.add("sexy");
+          app.classList.remove("opacity");
 
-      setTimeout(() => {
-        loader.classList.add("hide");
-        document.body.classList.add("sexy");
-        app.classList.remove("opacity");
-
-        document.addEventListener("click", () => {
-          console.log("document clicked");
-          music.play();
-        });
-
-        try {
-          music.addEventListener("canplaythrough", (event) => {
-            console.log("We are allowed to play");
+          document.addEventListener("click", () => {
+            console.log("document clicked");
             music.play();
           });
-        } catch (err) {
-          console.log(err);
-        }
-      }, 1500);
-      */
+
+          try {
+            music.addEventListener("canplaythrough", (event) => {
+              console.log("We are allowed to play");
+              music.play();
+            });
+          } catch (err) {
+            console.log(err);
+          }
+        }, 1500);
+      });
     </script>
   </body>
 </html>

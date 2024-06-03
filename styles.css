@@ -12,12 +12,8 @@ body {
 }
 
 h1 {
-    margin-top: 50px;
-    font-size: 12.9em;
-    margin-right: -140px;
     color:var(--primary-color);
-    height: 0vh;
-    position: absolute;
+    font-size: 9rem;
 }
 
 p {
