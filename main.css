@@ -31,10 +31,8 @@ header {
     justify-content: space-between;
 }
 
-header div.svg {
-    /* constrain the svg using this div */
-}
-header nav {
+
+eader nav {
     
     display: flex;
     gap: 1rem;
